@@ -20,10 +20,10 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  backgound-color: #585555;
    }
 
 body {
+  background-color: #585555;
   line-height: 1; }
 
 ol, ul {
@@ -70,7 +70,8 @@ h1{
 
 P{
   color: #ff69b4;
-  font-size: 2em;
+  font-size: 3em;
+  line-height: 3;
 }
 
 </style>
