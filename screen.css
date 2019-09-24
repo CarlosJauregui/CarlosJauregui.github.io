@@ -16,7 +16,9 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  backgound-color: #585555;
+   }
 
 body {
   line-height: 1; }
@@ -56,3 +58,14 @@ a {
 
 #main {
   padding: 50px; }
+
+h1{
+  font-size: 8em;
+  color: #ff69b4;
+  font-family: 'Fugaz One', cursive;
+}
+
+P{
+  color: #ff69b4;
+  font-size: 2em;
+}
