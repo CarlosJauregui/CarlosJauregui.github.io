@@ -1,0 +1,34 @@
+body {
+  background-color: #174854;
+  
+}
+
+p{
+    color: aliceblue;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+div.jumbotron{
+    background-color: #468191;
+}
+
+div.jumbotron p a{
+    background-color: #174854;
+    border-color: #915c46
+}
+
+a{
+    text-decoration: underline;
+    text-decoration: aliceblue;
+    color: aliceblue 
+}
+a hover{
+
+}
