@@ -27,5 +27,5 @@ function draw() {
   translate(mouseX / mouseX, mouseY / mouseY);
   translate(p5.Vector.fromAngle(millis() / 500, 80));
   fill(color_r, color_g, color_b)
-  rect(mouseX, mouseY, 30, 30);
+  rect(mouseX, mouseY, 90, 90);
 }
