@@ -37,6 +37,7 @@ a{
 }
 
 div.col-md-12{
+  text-align: center;
   border-style: groove;
   border-width: 6px;
   border-color: #468191;
