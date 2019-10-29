@@ -35,3 +35,26 @@ a{
     text-decoration: aliceblue;
     color: aliceblue 
 }
+
+div.col-md-12{
+  border-style: groove;
+  border-width: 6px;
+  border-color: #468191;
+}
+
+div.col-md-4{
+    border-style: groove;
+    border-width: 6px;
+    border-color: #468191;
+}
+
+div.col-md-6{
+    border-style: groove;
+    border-width: 6px;
+    border-color: #468191;
+}
+div.col-md-3{
+    border-style: groove;
+    border-width: 6px;
+    border-color: #468191;
+}
