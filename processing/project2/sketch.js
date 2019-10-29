@@ -10,6 +10,9 @@ function setup() {
 
 
 function draw() {
+  if(mouseIsPressed){
+    clear()
+  }
   color_r = color_r + 1
   color_g = color_g + 2
   color_b = color_b + 3
