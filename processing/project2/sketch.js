@@ -45,10 +45,8 @@ function draw() {
     color_b = color_b - 1
   }
   
-  
-  rectMode(CENTER);
   translate(mouseX / mouseX, mouseY / mouseY);
-  translate(p5.Vector.fromAngle(millis() / 500, 80));
+  translate(p5.Vector.fromAngle(millis() / 10, 50));
   fill(color_r, color_g, color_b)
-  rect(mouseX, mouseY, 90, 90);
+  circle(mouseX, mouseY, 100);
 }
