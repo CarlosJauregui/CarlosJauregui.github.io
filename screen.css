@@ -1,5 +1,16 @@
+
 body {
-  background-color: #174854;
+    background-color:#556;
+    background-image: linear-gradient(30deg, #343a40 12%, transparent 12.5%, transparent 87%, #343a40 87.5%, #343a40),
+    linear-gradient(150deg, #343a40 12%, transparent 12.5%, transparent 87%, #343a40 87.5%, #343a40),
+    linear-gradient(30deg, #343a40 12%, transparent 12.5%, transparent 87%, #343a40 87.5%, #343a40),
+    linear-gradient(150deg, #343a40 12%, transparent 12.5%, transparent 87%, #343a40 87.5%, #343a40),
+    linear-gradient(60deg, black 25%, transparent 25.5%, transparent 75%, black 75%, black),
+    linear-gradient(60deg, black 25%, transparent 25.5%, transparent 75%, black 75%, black);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    overflow-x: scroll;
+
   
 }
 
@@ -16,13 +27,16 @@ h2{
 }
 
 div.jumbotron{
-    background-color: #468191;
-    background-image: url('./images/background-pattern.jpg');
+    background-color: aliceblue;
     width: 100vw;
     height: auto;
     padding-bottom: 0px;
     background-repeat: repeat;
     background-position: bottom;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-bottom: 0px;
 }
 
 div.jumbotron p a{
@@ -39,28 +53,84 @@ a{
 div.col-md-12{
   text-align: center;
   border-style: groove;
-  border-width: 6px;
-  border-color: #468191;
+  border-width: 1px;
+  border-color: black;
+  background-color: #343a40;
 }
 
 div.col-md-4{
-    border-style: groove;
-    border-width: 6px;
-    border-color: #468191;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: #343a40;
 }
 
 div.col-md-6{
     border-style: groove;
-    border-width: 6px;
-    border-color: #468191;
+    border-width: 3px;
+    border-color: black;
+    background-color: #343a40;
 }
 div.col-md-3{
     border-style: groove;
-    border-width: 6px;
-    border-color: #468191;
+    border-width: 3px;
+    border-color: black;
+    background-color: #343a40;
 }
 
 a.btn.btn-primary{
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    background-color: rgb(89, 89, 95);
 } 
 
+div.top-spacing{
+    margin-top: 30px;
+}   
+
+.active-page{
+    background-color: gray;
+}
+
+div.jumbotron h1{
+    font-weight: 400;
+    color: black;
+}
+div.jumbotron p{
+    color: black;
+}
+
+.padding-left-right{
+    align-items: center;
+    
+}
+
+.background-border{
+    background-color: black;
+    background-clip: border-box;
+    border-top: black;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    border-width: 3px;
+    border-style: double;
+    padding: -10px;
+}
+
+.row{
+    background-color: black;
+    background-clip: border-box;
+    border-top: black;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    border-width: .1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+div.col-md-12.top-spacing{
+    border-style: groove;
+    border-width: 6px;
+    border-color: #343a40;
+    text-align: left;
+}
