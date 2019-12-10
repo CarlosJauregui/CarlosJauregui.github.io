@@ -9,7 +9,7 @@ body {
     linear-gradient(60deg, black 25%, transparent 25.5%, transparent 75%, black 75%, black);
     background-size:80px 140px;
     background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 
   
 }
