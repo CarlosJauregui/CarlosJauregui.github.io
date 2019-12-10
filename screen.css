@@ -134,3 +134,10 @@ div.col-md-12.top-spacing{
     border-color: #343a40;
     text-align: left;
 }
+
+div.col-md-6.top-spacing{
+    border-style: groove;
+    border-width: 6px;
+    border-color: #343a40;
+    text-align: left;
+}
