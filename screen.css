@@ -141,3 +141,10 @@ div.col-md-6.top-spacing{
     border-color: #343a40;
     text-align: left;
 }
+
+.processing{
+    margin: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
