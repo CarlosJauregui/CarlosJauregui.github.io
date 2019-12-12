@@ -1,52 +1,29 @@
+let x = 320;
+let y = 180;
+let xspeed = 10;
+let yspeed = 5;
+
+
+let r = 25;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  angleMode(DEGREES);
-  color_r = 0
-  color_g = 0
-  color_b = 0
-  dir_r = 1
-  dir_g = 1
-  dir_b = 1
+  createCanvas(1500, 700);
+  
 }
 
 function draw() {
-  if(mouseIsPressed){
-    clear()
-  }
-  if (color_r < 0){
-    dir_r = 1
-  }else if(color_r > 255){
-    dir_r = 0
-  }
-  if (color_g < 0){
-    dir_g = 1
-  }else if(color_g > 255){
-    dir_g = 0
-  }
-  if (color_b < 0){
-    dir_b = 1
-  }else if(color_b > 255){
-    dir_b = 0
-  }
+  let rand = random(-5, 6);
+  background(0);
+  rect(0, mouseY - height/8, width/40, height/4)
+  rect(width - width/40, y + - height/8, width/40, height/4)
   
-  if (dir_r == 1){
-    color_r = color_r + 1
-  }else if(dir_r == 0){
-    color_r = color_r - 2
+  ellipse(x, y, r*2, r*2);
+  x += xspeed;
+  y += yspeed;
+  if (x > width - r || x < r) {
+    xspeed = -xspeed;
+    yspeed = rand
+  if (y > 0 || y < 1500) {
+    yspeed = -yspeed;
+    }
   }
-  if (dir_g == 1){
-    color_g = color_g + 2
-  }else if(dir_g == 0){
-    color_g = color_g - 3
-  }
-  if (dir_b == 1){
-    color_b = color_b + 3
-  }else if(dir_b == 0){
-    color_b = color_b - 1
-  }
-  
-  translate(mouseX / mouseX, mouseY / mouseY);
-  translate(p5.Vector.fromAngle(millis() / 10, 50));
-  fill(color_r, color_g, color_b)
-  circle(mouseX, mouseY, 100);
 }
